@@ -98,7 +98,7 @@ export async function POST(request: NextRequest) {
               </p>
             </div>
             
-            <p>If you have any urgent inquiries, please feel free to call us at <a href="tel:9605673444">96056 73444</a>.</p>
+            <p>If you have any urgent inquiries, please feel free to call us at <a href="tel:9566867444">+91 95668 67444</a>.</p>
             
             <p>Best regards,<br>The McGeo Team</p>
           </div>
