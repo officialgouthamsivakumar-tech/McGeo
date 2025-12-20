@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
@@ -54,8 +55,19 @@ export default function Navbar() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <Link href="/" className="text-2xl font-bold text-gray-900">
-              McGeo
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/logo.svg"
+                alt="McGeo Logo"
+                width={160}
+                height={48}
+                priority
+                className="h-12 w-auto"
+              />
+              <div className="flex flex-col">
+                <span className="text-2xl font-bold text-[#d44545]">McGeo</span>
+                <span className="text-xs text-gray-600">Trust the Excellency</span>
+              </div>
             </Link>
           </motion.div>
 

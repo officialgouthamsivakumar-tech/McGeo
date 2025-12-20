@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Brand colors from logo */
+  --brand-red: #d44545;
+  --brand-red-dark: #b83939;
+  --brand-grey: #898888;
+  --brand-rose: #d7c5c4;
 }
 
 @theme inline {
@@ -10,6 +15,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* Brand color utilities */
+  --color-brand-red: var(--brand-red);
+  --color-brand-red-dark: var(--brand-red-dark);
+  --color-brand-grey: var(--brand-grey);
+  --color-brand-rose: var(--brand-rose);
 }
 
 @media (prefers-color-scheme: dark) {

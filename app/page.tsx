@@ -12,7 +12,7 @@ export default function Home() {
       description: 'We create powerful brand identities that connect, engage, and drive business growth. From brand narrative to corporate identity, we craft visual systems that differentiate you from the competition.',
       icon: Palette,
       href: '/services/branding',
-      color: 'from-orange-500 to-orange-600',
+      color: 'from-[#d44545] to-[#b83939]',
     },
     {
       title: 'Software Development',
@@ -115,7 +115,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="border-l-4 border-orange-500 pl-6">
+            <div className="border-l-4 border-[#d44545] pl-6">
               <p className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 leading-tight">
                 Structure before Scale.
               </p>
@@ -166,7 +166,7 @@ export default function Home() {
                     </p>
                     <Link
                       href={service.href}
-                      className="inline-flex items-center text-orange-600 font-semibold hover:text-orange-700 transition-colors"
+                      className="inline-flex items-center text-[#d44545] font-semibold hover:text-[#b83939] transition-colors"
                     >
                       Know More
                       <ArrowRight className="ml-2 h-4 w-4" />
