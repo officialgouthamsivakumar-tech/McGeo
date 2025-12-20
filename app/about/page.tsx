@@ -4,8 +4,11 @@ export default function AboutPage() {
       <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6">About Us</h1>
-          <p className="text-xl text-gray-300 max-w-3xl">
+          <p className="text-xl text-gray-300 max-w-3xl mb-4">
             We are the architects of enterprise value, transforming businesses through strategic solutions.
+          </p>
+          <p className="text-lg text-gray-400">
+            Established in 2019
           </p>
         </div>
       </section>

@@ -13,23 +13,32 @@ export default function Navbar() {
 
   const handleServicesClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    if (pathname === '/') {
-      // If on homepage, scroll to services section
+    setIsOpen(false); // Close mobile menu first
+    
+    const scrollToServices = () => {
       const servicesSection = document.getElementById('services');
       if (servicesSection) {
-        servicesSection.scrollIntoView({ behavior: 'smooth' });
+        const yOffset = -80; // Offset for sticky navbar
+        const y = servicesSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
       }
+    };
+    
+    if (pathname === '/') {
+      // If on homepage, scroll to services section after a small delay to ensure menu closes
+      setTimeout(scrollToServices, 150);
     } else {
-      // If on another page, navigate to homepage and scroll
-      router.push('/#services');
+      // If on another page, navigate to homepage first, then scroll
+      router.push('/');
+      // Wait for navigation, then scroll
       setTimeout(() => {
-        const servicesSection = document.getElementById('services');
-        if (servicesSection) {
-          servicesSection.scrollIntoView({ behavior: 'smooth' });
+        scrollToServices();
+        // Retry if element not found (page might still be loading)
+        if (!document.getElementById('services')) {
+          setTimeout(scrollToServices, 300);
         }
-      }, 100);
+      }, 200);
     }
-    setIsOpen(false);
   };
 
   return (

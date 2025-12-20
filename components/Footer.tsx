@@ -7,8 +7,11 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4">McGeo</h3>
-            <p className="text-gray-400">
+            <p className="text-gray-400 mb-2">
               Transforming ideas into thriving enterprises through strategic solutions.
+            </p>
+            <p className="text-gray-500 text-sm">
+              Established in 2019
             </p>
           </div>
           <div>
@@ -52,13 +55,32 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <ul className="space-y-2 text-gray-400">
-              <li>Email: sales@mcgeogroup.com</li>
-              <li>Phone: 96056 73444</li>
+              <li>
+                <a href="mailto:sales@mcgeogroup.com" className="hover:text-white transition-colors">
+                  sales@mcgeogroup.com
+                </a>
+              </li>
+              <li>
+                <a href="tel:9605673444" className="hover:text-white transition-colors">
+                  96056 73444
+                </a>
+              </li>
+              <li className="pt-2">
+                <a
+                  href="https://www.linkedin.com/company/mcgeo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  LinkedIn
+                </a>
+              </li>
             </ul>
           </div>
         </div>
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} McGeo. All rights reserved.</p>
+          <p>&copy; 2019 McGeo. All rights reserved.</p>
         </div>
       </div>
     </footer>

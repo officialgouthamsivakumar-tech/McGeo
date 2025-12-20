@@ -179,6 +179,37 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AnimatedSection>
+            <div className="mb-16">
+              <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+                Trusted by Leading Businesses
+              </h2>
+              <div className="bg-gray-50 rounded-xl p-8">
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <p className="text-lg text-gray-700 italic mb-4">
+                      "McGeo transformed our business operations with their strategic approach. 
+                      Their team delivered exceptional results that exceeded our expectations."
+                    </p>
+                    <p className="text-sm font-semibold text-gray-900">— CEO, Tech Startup</p>
+                  </div>
+                  <div>
+                    <p className="text-lg text-gray-700 italic mb-4">
+                      "Working with McGeo was a game-changer. They helped us streamline our processes 
+                      and achieve sustainable growth. Highly recommended!"
+                    </p>
+                    <p className="text-sm font-semibold text-gray-900">— Director, Manufacturing Company</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
