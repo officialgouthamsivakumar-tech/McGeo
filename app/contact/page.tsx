@@ -20,7 +20,7 @@ export default function ContactPage() {
             "description": "McGeo provides end-to-end business solutions including branding, software development, SEO, and SMO services.",
             "url": "https://mcgeogroup.com",
             "telephone": "9566867444",
-            "email": "sales@mcgeogroup.com",
+            "email": "info@mcgeogroup.com",
             "address": {
               "@type": "PostalAddress",
               "addressCountry": "IN"
@@ -29,7 +29,7 @@ export default function ContactPage() {
               "@type": "ContactPoint",
               "telephone": "9566867444",
               "contactType": "Sales",
-              "email": "sales@mcgeogroup.com",
+              "email": "info@mcgeogroup.com",
               "availableLanguage": "English"
             },
             "sameAs": [
@@ -77,10 +77,10 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                   <a 
-                    href="mailto:sales@mcgeogroup.com" 
+                    href="mailto:info@mcgeogroup.com" 
                     className="text-gray-600 hover:text-orange-600 transition-colors text-sm break-all"
                   >
-                    sales@mcgeogroup.com
+                    info@mcgeogroup.com
                   </a>
                 </div>
               </AnimatedSection>

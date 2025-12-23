@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
     // SMTP credentials (hardcoded)
     // If using Google Workspace (Gmail for business), use smtp.gmail.com with App Password
     // If using other providers, update host and port accordingly
-    const smtpUser = 'sales@mcgeogroup.com';
+    const smtpUser = 'info@mcgeogroup.com';
     const smtpPassword = 'ravisanth3044'; // Use App Password if Google Workspace
     const smtpHost = 'smtp.gmail.com'; // Change to your email provider's SMTP host
     const smtpPort = 587; // Common ports: 587 (TLS), 465 (SSL), 25 (unsecured)
@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
     // Email content for admin/company
     const mailOptions = {
       from: smtpUser,
-      to: 'sales@mcgeogroup.com',
+      to: 'info@mcgeogroup.com',
       replyTo: email,
       subject: `New Contact Form Submission: ${subject}`,
       html: `

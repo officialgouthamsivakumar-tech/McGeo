@@ -56,8 +56,8 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Connect</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="mailto:sales@mcgeogroup.com" className="hover:text-white transition-colors">
-                  sales@mcgeogroup.com
+                <a href="mailto:info@mcgeogroup.com" className="hover:text-white transition-colors">
+                  info@mcgeogroup.com
                 </a>
               </li>
               <li>
