@@ -53,10 +53,10 @@ export default function SEOPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="bg-gradient-to-br from-green-500 to-green-600 text-white py-24">
+      <section className="bg-gradient-to-br from-[#6AB04C] to-[#5A9A3E] text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6">SEO Services</h1>
-          <p className="text-xl text-green-100 max-w-3xl">
+          <p className="text-xl text-white/90 max-w-3xl">
             Boost your online visibility and drive organic traffic with our comprehensive SEO strategies. 
             We optimize your digital presence to rank higher and attract the right audience.
           </p>
@@ -81,28 +81,28 @@ export default function SEOPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">What We Deliver</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 text-xl">✓</span>
+                  <span className="text-[#6AB04C] mr-3 text-xl">✓</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Improved Rankings</h4>
                     <p className="text-gray-600">Higher visibility in search results</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 text-xl">✓</span>
+                  <span className="text-[#6AB04C] mr-3 text-xl">✓</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Increased Traffic</h4>
                     <p className="text-gray-600">More organic visitors to your site</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 text-xl">✓</span>
+                  <span className="text-[#6AB04C] mr-3 text-xl">✓</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Better Conversions</h4>
                     <p className="text-gray-600">Turn visitors into customers</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-3 text-xl">✓</span>
+                  <span className="text-[#6AB04C] mr-3 text-xl">✓</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Long-term Growth</h4>
                     <p className="text-gray-600">Sustainable SEO results</p>
@@ -117,8 +117,8 @@ export default function SEOPage() {
               const Icon = service.icon;
               return (
                 <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                  <div className="inline-flex p-3 rounded-lg bg-green-100 mb-4">
-                    <Icon className="h-6 w-6 text-green-600" />
+                  <div className="inline-flex p-3 rounded-lg bg-green-50 mb-4">
+                    <Icon className="h-6 w-6 text-[#6AB04C]" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
                     {service.title}

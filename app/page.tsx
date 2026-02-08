@@ -12,7 +12,7 @@ export default function Home() {
       description: 'We create powerful brand identities that connect, engage, and drive business growth. From brand narrative to corporate identity, we craft visual systems that differentiate you from the competition.',
       icon: Palette,
       href: '/services/branding',
-      color: 'from-[#d44545] to-[#b83939]',
+      color: 'from-[#1976B5] to-[#145E91]',
     },
     {
       title: 'Software Development',
@@ -26,7 +26,7 @@ export default function Home() {
       description: 'Boost your online visibility and drive organic traffic with our comprehensive SEO strategies. We optimize your digital presence to rank higher and attract the right audience.',
       icon: Search,
       href: '/services/seo',
-      color: 'from-green-500 to-green-600',
+      color: 'from-[#6AB04C] to-[#5A9A3E]',
     },
     {
       title: 'SMO Services',
@@ -115,7 +115,7 @@ export default function Home() {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection>
-            <div className="border-l-4 border-[#d44545] pl-6">
+            <div className="border-l-4 border-[#1976B5] pl-6">
               <p className="text-3xl sm:text-4xl font-bold text-gray-900 mb-2 leading-tight">
                 Structure before Scale.
               </p>
@@ -166,7 +166,7 @@ export default function Home() {
                     </p>
                     <Link
                       href={service.href}
-                      className="inline-flex items-center text-[#d44545] font-semibold hover:text-[#b83939] transition-colors"
+                      className="inline-flex items-center text-[#1976B5] font-semibold hover:text-[#145E91] transition-colors"
                     >
                       Know More
                       <ArrowRight className="ml-2 h-4 w-4" />

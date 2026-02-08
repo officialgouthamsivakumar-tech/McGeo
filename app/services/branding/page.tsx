@@ -28,7 +28,7 @@ export default function BrandingPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="bg-gradient-to-br from-[#d44545] to-[#b83939] text-white py-24">
+      <section className="bg-gradient-to-br from-[#1976B5] to-[#145E91] text-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl sm:text-6xl font-bold mb-6">Branding Services</h1>
           <p className="text-xl text-white/90 max-w-3xl">
@@ -57,28 +57,28 @@ export default function BrandingPage() {
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Approach</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="text-[#d44545] mr-3 text-xl">1.</span>
+                  <span className="text-[#1976B5] mr-3 text-xl">1.</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Discovery & Research</h4>
                     <p className="text-gray-600">Understanding your business, market, and audience</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#d44545] mr-3 text-xl">2.</span>
+                  <span className="text-[#1976B5] mr-3 text-xl">2.</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Strategy Development</h4>
                     <p className="text-gray-600">Creating a comprehensive brand strategy</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#d44545] mr-3 text-xl">3.</span>
+                  <span className="text-[#1976B5] mr-3 text-xl">3.</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Design & Execution</h4>
                     <p className="text-gray-600">Bringing your brand to life visually</p>
                   </div>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#d44545] mr-3 text-xl">4.</span>
+                  <span className="text-[#1976B5] mr-3 text-xl">4.</span>
                   <div>
                     <h4 className="font-semibold text-gray-900">Guidelines & Support</h4>
                     <p className="text-gray-600">Ensuring consistent brand application</p>
@@ -93,8 +93,8 @@ export default function BrandingPage() {
               const Icon = feature.icon;
               return (
                 <div key={index} className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow">
-                  <div className="inline-flex p-3 rounded-lg bg-orange-100 mb-4">
-                    <Icon className="h-6 w-6 text-orange-600" />
+                  <div className="inline-flex p-3 rounded-lg bg-blue-100 mb-4">
+                    <Icon className="h-6 w-6 text-[#1976B5]" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
                     {feature.title}

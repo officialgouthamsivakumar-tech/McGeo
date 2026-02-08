@@ -11,9 +11,9 @@ export const metadata: Metadata = {
   title: "McGeo - Business Solutions | Branding, Software, SEO & SMO",
   description: "McGeo provides end-to-end business solutions including branding, software development, SEO, and SMO services to transform your business.",
   icons: {
-    icon: '/logo.svg',
-    shortcut: '/logo.svg',
-    apple: '/logo.svg',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
 };
 

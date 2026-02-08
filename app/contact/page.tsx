@@ -71,14 +71,14 @@ export default function ContactPage() {
               <AnimatedSection delay={0.1}>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow text-center">
                   <div className="flex justify-center mb-4">
-                    <div className="p-3 bg-orange-100 rounded-full">
-                      <Mail className="h-6 w-6 text-orange-600" />
+                    <div className="p-3 bg-blue-100 rounded-full">
+                      <Mail className="h-6 w-6 text-[#1976B5]" />
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
                   <a 
                     href="mailto:info@mcgeogroup.com" 
-                    className="text-gray-600 hover:text-orange-600 transition-colors text-sm break-all"
+                    className="text-gray-600 hover:text-[#1976B5] transition-colors text-sm break-all"
                   >
                     info@mcgeogroup.com
                   </a>
@@ -88,14 +88,14 @@ export default function ContactPage() {
               <AnimatedSection delay={0.2}>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow text-center">
                   <div className="flex justify-center mb-4">
-                    <div className="p-3 bg-orange-100 rounded-full">
-                      <Phone className="h-6 w-6 text-orange-600" />
+                    <div className="p-3 bg-blue-100 rounded-full">
+                      <Phone className="h-6 w-6 text-[#1976B5]" />
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
                   <a 
                     href="tel:9566867444" 
-                    className="text-gray-600 hover:text-orange-600 transition-colors text-sm block"
+                    className="text-gray-600 hover:text-[#1976B5] transition-colors text-sm block"
                   >
                     +91 95668 67444
                   </a>
@@ -106,8 +106,8 @@ export default function ContactPage() {
               <AnimatedSection delay={0.3}>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow text-center">
                   <div className="flex justify-center mb-4">
-                    <div className="p-3 bg-orange-100 rounded-full">
-                      <MessageCircle className="h-6 w-6 text-orange-600" />
+                    <div className="p-3 bg-blue-100 rounded-full">
+                      <MessageCircle className="h-6 w-6 text-[#1976B5]" />
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">WhatsApp</h3>
@@ -115,7 +115,7 @@ export default function ContactPage() {
                     href="https://wa.me/919566867444" 
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 hover:text-orange-600 transition-colors text-sm inline-block"
+                    className="text-gray-600 hover:text-[#1976B5] transition-colors text-sm inline-block"
                   >
                     Chat on WhatsApp
                   </a>
@@ -125,8 +125,8 @@ export default function ContactPage() {
               <AnimatedSection delay={0.4}>
                 <div className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow text-center">
                   <div className="flex justify-center mb-4">
-                    <div className="p-3 bg-orange-100 rounded-full">
-                      <Clock className="h-6 w-6 text-orange-600" />
+                    <div className="p-3 bg-blue-100 rounded-full">
+                      <Clock className="h-6 w-6 text-[#1976B5]" />
                     </div>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Office Hours</h3>
@@ -140,11 +140,11 @@ export default function ContactPage() {
             {/* Response Time & Social Links */}
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <AnimatedSection delay={0.5}>
-                <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded-lg">
+                <div className="bg-blue-50 border-l-4 border-[#1976B5] p-6 rounded-lg">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Response Time</h3>
                   <p className="text-sm text-gray-700">
                     We reply within 24-48 hours. For urgent inquiries, 
-                    call us directly at <a href="tel:9566867444" className="text-orange-600 font-semibold">+91 95668 67444</a>.
+                    call us directly at <a href="tel:9566867444" className="text-[#1976B5] font-semibold">+91 95668 67444</a>.
                   </p>
                 </div>
               </AnimatedSection>
